@@ -10,6 +10,9 @@
 		CE3E72FF1F159C1300439564 /* SFNetworkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3E72F51F159C1300439564 /* SFNetworkSDK.framework */; };
 		CE3E73041F159C1300439564 /* SFNetworkSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73031F159C1300439564 /* SFNetworkSDKTests.m */; };
 		CE3E73061F159C1300439564 /* SFNetworkSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E72F81F159C1300439564 /* SFNetworkSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE3E73371F159FEB00439564 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3E73361F159FEB00439564 /* CocoaLumberjack.framework */; };
+		CE3E73391F159FF300439564 /* SalesforceAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3E73381F159FF300439564 /* SalesforceAnalytics.framework */; };
+		CE3E733A1F159FF900439564 /* SalesforceSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3E732D1F159FCC00439564 /* SalesforceSDKCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +23,41 @@
 			remoteGlobalIDString = CE3E72F41F159C1300439564;
 			remoteInfo = SFNetworkSDK;
 		};
+		CE3E732C1F159FCC00439564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3E73241F159FCC00439564 /* SalesforceSDKCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE4CE26B1C0E449C009F6029;
+			remoteInfo = SalesforceSDKCore;
+		};
+		CE3E732E1F159FCC00439564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3E73241F159FCC00439564 /* SalesforceSDKCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 82D4642419C7C8170006BDFE;
+			remoteInfo = SalesforceSDKCoreTestApp;
+		};
+		CE3E73301F159FCC00439564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3E73241F159FCC00439564 /* SalesforceSDKCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F7EB4151BFFC88200768720;
+			remoteInfo = SalesforceSDKCoreTests;
+		};
+		CE3E73321F159FCC00439564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3E73241F159FCC00439564 /* SalesforceSDKCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CEA8825F1C18F722008D871B;
+			remoteInfo = SalesforceSDKCoreStatic;
+		};
+		CE3E73341F159FD700439564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3E73241F159FCC00439564 /* SalesforceSDKCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4CE26A1C0E449C009F6029;
+			remoteInfo = SalesforceSDKCore;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +67,9 @@
 		CE3E72FE1F159C1300439564 /* SFNetworkSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFNetworkSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3E73031F159C1300439564 /* SFNetworkSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFNetworkSDKTests.m; sourceTree = "<group>"; };
 		CE3E73051F159C1300439564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3E73241F159FCC00439564 /* SalesforceSDKCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SalesforceSDKCore.xcodeproj; path = ../SalesforceMobileSDK/libs/SalesforceSDKCore/SalesforceSDKCore.xcodeproj; sourceTree = "<group>"; };
+		CE3E73361F159FEB00439564 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = "../SalesforceMobileSDK/external/CocoaLumberjack/build/Debug-iphoneos/CocoaLumberjack.framework"; sourceTree = "<group>"; };
+		CE3E73381F159FF300439564 /* SalesforceAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SalesforceAnalytics.framework; path = "../SalesforceMobileSDK/libs/SalesforceAnalytics/build/Debug-iphoneos/SalesforceAnalytics.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3E733A1F159FF900439564 /* SalesforceSDKCore.framework in Frameworks */,
+				CE3E73391F159FF300439564 /* SalesforceAnalytics.framework in Frameworks */,
+				CE3E73371F159FEB00439564 /* CocoaLumberjack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +97,7 @@
 		CE3E72EB1F159C1300439564 = {
 			isa = PBXGroup;
 			children = (
+				CE3E73231F159FB100439564 /* Frameworks */,
 				CE3E72F71F159C1300439564 /* SFNetworkSDK */,
 				CE3E73021F159C1300439564 /* SFNetworkSDKTests */,
 				CE3E72F61F159C1300439564 /* Products */,
@@ -86,6 +131,27 @@
 			path = SFNetworkSDKTests;
 			sourceTree = "<group>";
 		};
+		CE3E73231F159FB100439564 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E73381F159FF300439564 /* SalesforceAnalytics.framework */,
+				CE3E73361F159FEB00439564 /* CocoaLumberjack.framework */,
+				CE3E73241F159FCC00439564 /* SalesforceSDKCore.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3E73251F159FCC00439564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E732D1F159FCC00439564 /* SalesforceSDKCore.framework */,
+				CE3E732F1F159FCC00439564 /* SalesforceSDKCoreTestApp.app */,
+				CE3E73311F159FCC00439564 /* SalesforceSDKCoreTests.xctest */,
+				CE3E73331F159FCC00439564 /* libSalesforceSDKCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -108,10 +174,12 @@
 				CE3E72F11F159C1300439564 /* Frameworks */,
 				CE3E72F21F159C1300439564 /* Headers */,
 				CE3E72F31F159C1300439564 /* Resources */,
+				CE3E733B1F15A04400439564 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CE3E73351F159FD700439564 /* PBXTargetDependency */,
 			);
 			name = SFNetworkSDK;
 			productName = SFNetworkSDK;
@@ -165,6 +233,12 @@
 			mainGroup = CE3E72EB1F159C1300439564;
 			productRefGroup = CE3E72F61F159C1300439564 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CE3E73251F159FCC00439564 /* Products */;
+					ProjectRef = CE3E73241F159FCC00439564 /* SalesforceSDKCore.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CE3E72F41F159C1300439564 /* SFNetworkSDK */,
@@ -172,6 +246,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CE3E732D1F159FCC00439564 /* SalesforceSDKCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SalesforceSDKCore.framework;
+			remoteRef = CE3E732C1F159FCC00439564 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE3E732F1F159FCC00439564 /* SalesforceSDKCoreTestApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SalesforceSDKCoreTestApp.app;
+			remoteRef = CE3E732E1F159FCC00439564 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE3E73311F159FCC00439564 /* SalesforceSDKCoreTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SalesforceSDKCoreTests.xctest;
+			remoteRef = CE3E73301F159FCC00439564 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE3E73331F159FCC00439564 /* libSalesforceSDKCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSalesforceSDKCore.a;
+			remoteRef = CE3E73321F159FCC00439564 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CE3E72F31F159C1300439564 /* Resources */ = {
@@ -189,6 +294,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE3E733B1F15A04400439564 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/../SalesforceMobileSDK/shared/common/build/tools/generate_headers.sh\" -o \"$TARGET_BUILD_DIR/$PRODUCT_NAME.framework/Headers/$PRODUCT_NAME.h\" -u \"$SRCROOT/$TARGET_NAME/$TARGET_NAME.h\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE3E72F01F159C1300439564 /* Sources */ = {
@@ -213,6 +334,11 @@
 			isa = PBXTargetDependency;
 			target = CE3E72F41F159C1300439564 /* SFNetworkSDK */;
 			targetProxy = CE3E73001F159C1300439564 /* PBXContainerItemProxy */;
+		};
+		CE3E73351F159FD700439564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SalesforceSDKCore;
+			targetProxy = CE3E73341F159FD700439564 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

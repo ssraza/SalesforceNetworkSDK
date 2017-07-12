@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SalesforceMobileSDK/external/CocoaLumberjack/Lumberjack.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SalesforceMobileSDK/libs/SalesforceAnalytics/SalesforceAnalytics.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SFNetworkSDK/../SalesforceMobileSDK/libs/SalesforceSDKCore/SalesforceSDKCore.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SFNetworkSDK/SFNetworkSDK.xcodeproj">
    </FileRef>
 </Workspace>
