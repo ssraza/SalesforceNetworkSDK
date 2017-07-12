@@ -27,12 +27,11 @@
 #import "SFLogStorage.h"
 #import "SFLogger.h"
 
-extern NSString * SFLogNameForFlag(SFLogFlag flag) SFSDK_DEPRECATED(5.2, 6.0, "Use SFSDKLogger instead.");
-extern NSString * SFLogNameForLogLevel(SFLogLevel level) SFSDK_DEPRECATED(5.2, 6.0, "Use SFSDKLogger instead.");
+extern NSString * SFLogNameForFlag(SFLogFlag flag);
+extern NSString * SFLogNameForLogLevel(SFLogLevel level);
 
 @interface DDLog () <SFLogStorage> @end
 
-SFSDK_DEPRECATED(5.2, 6.0, "Use SFSDKLogger instead.")
 @interface SFLogIdentifier : NSObject
 
 @property (nonatomic, weak) SFLogger *logger;

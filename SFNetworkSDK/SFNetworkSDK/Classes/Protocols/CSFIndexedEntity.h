@@ -33,7 +33,6 @@
  The value for the index may be any value, though its use should be restricted to values that
  are easily indexed by Core Data, or at least that support NSCoding.
  */
-SFSDK_DEPRECATED(5.2, 6.0, "Use our SFRestAPI library instead to make REST API requests.")
 @protocol CSFIndexedEntity <NSObject>
 
 /** The key name that represents the property that is indexed.

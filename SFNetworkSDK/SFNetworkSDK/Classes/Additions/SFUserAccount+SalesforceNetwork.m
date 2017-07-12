@@ -27,11 +27,8 @@
 
 @implementation SFUserAccount (SalesforceNetwork)
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 - (CSFNetwork*)network {
     return [CSFNetwork networkForUserAccount:self];
 }
-#pragma clang diagnostic pop
 
 @end

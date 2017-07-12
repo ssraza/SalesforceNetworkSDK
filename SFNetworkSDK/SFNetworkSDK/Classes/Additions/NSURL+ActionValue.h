@@ -23,12 +23,8 @@
  */
 
 #import <Foundation/Foundation.h>
-
 #import "CSFActionValue.h"
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 @interface NSURL (ActionValue) <CSFActionValue>
-#pragma clang diagnostic pop
 
 @end

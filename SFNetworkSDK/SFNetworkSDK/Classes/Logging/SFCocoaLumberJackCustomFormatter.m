@@ -24,14 +24,10 @@
 
 #include <pthread.h>
 #import <objc/runtime.h>
-
 #import <CocoaLumberjack/CocoaLumberjack.h>
 #import "SFCocoaLumberJackCustomFormatter.h"
 #import "SFLogger.h"
 #import "SFLogger_Internal.h"
-
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 
 @implementation SFCocoaLumberJackCustomFormatter {
     int loggerCount;
@@ -109,7 +105,5 @@
 - (void)willRemoveFromLogger:(id <DDLogger>)logger {
     loggerCount--;
 }
-
-#pragma clang diagnostic pop
 
 @end

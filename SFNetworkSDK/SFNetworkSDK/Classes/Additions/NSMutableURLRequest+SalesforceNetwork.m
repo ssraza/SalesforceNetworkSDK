@@ -27,11 +27,8 @@
 
 @implementation NSMutableURLRequest (SalesforceNetwork)
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 - (BOOL)bindParameters:(CSFParameterStorage*)parameterStorage error:(NSError**)error {
     return [parameterStorage bindParametersToRequest:self error:error];
 }
-#pragma clang diagnostic pop
 
 @end

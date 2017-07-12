@@ -24,7 +24,6 @@
 
 #import "CSFAuthRefresh.h"
 
-SFSDK_DEPRECATED(5.2, 6.0, "Use our SFRestAPI library instead to make REST API requests.")
 @interface CSFSalesforceOAuthRefresh : CSFAuthRefresh
 
 @end

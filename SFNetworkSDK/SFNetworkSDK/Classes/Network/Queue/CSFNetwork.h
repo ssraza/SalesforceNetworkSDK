@@ -36,7 +36,6 @@
  the OAuth2 token refresh, queueing and scheduling of network operations, handling the parsing
  of responses, and aggregation of common actions into batches.
  */
-SFSDK_DEPRECATED(5.2, 6.0, "Use our SFRestAPI library instead to make REST API requests.")
 @interface CSFNetwork : NSObject
 
 @property (nonatomic, readonly, strong) NSURLSession *ephemeralSession;
@@ -204,7 +203,6 @@ SFSDK_DEPRECATED(5.2, 6.0, "Use our SFRestAPI library instead to make REST API r
 
 @end
 
-SFSDK_DEPRECATED(5.2, 6.0, "Use our SFRestAPI library instead to make REST API requests.")
 @protocol CSFNetworkDelegate <NSObject>
 
 @optional

@@ -25,8 +25,6 @@
 #import "CSFNetwork+Internal.h"
 #import "CSFInternalDefines.h"
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 @implementation CSFNetwork (Caching)
 
 - (NSPointerArray*)outputCachePointers {
@@ -95,4 +93,3 @@
 }
 
 @end
-#pragma clang diagnostic pop

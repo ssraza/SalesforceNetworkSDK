@@ -31,7 +31,6 @@
 
  This allows for different backing implementations based on whether the requests are GET, POST, PATCH, etc.
  */
-SFSDK_DEPRECATED(5.2, 6.0, "Use our SFRestAPI library instead to make REST API requests.")
 @interface CSFParameterStorage : NSObject
 
 /**

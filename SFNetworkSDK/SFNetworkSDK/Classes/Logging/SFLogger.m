@@ -34,9 +34,6 @@
 #import "SFLoggerMacros.h"
 #import <SalesforceAnalytics/NSUserDefaults+SFAdditions.h>
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
-
 static inline SFLogFlag SFLogFlagForLogLevel(SFLogLevel level) {
     switch (level) {
         case SFLogLevelAll:
@@ -970,7 +967,5 @@ static BOOL assertionRecorded = NO;
 + (void) resetLoggingFilter
 {
 }
-
-#pragma clang diagnostic pop
 
 @end

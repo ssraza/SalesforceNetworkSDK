@@ -33,7 +33,6 @@
  of these responses needs to be structured too. This class and its subclasses provide the
  capability to encode and expose the data provided from server resources to client code.
  */
-SFSDK_DEPRECATED(5.2, 6.0, "Use our SFRestAPI library instead to make REST API requests.")
 @interface CSFOutput : NSObject <NSSecureCoding, NSCopying, CSFActionModel>
 
 - (instancetype)init NS_DESIGNATED_INITIALIZER;

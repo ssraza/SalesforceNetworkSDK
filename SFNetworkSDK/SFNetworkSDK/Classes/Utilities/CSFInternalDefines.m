@@ -33,15 +33,10 @@
 
 NSInteger kCSFNetworkLogContext = 0;
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
-
 __attribute__((constructor))
 static void initialize_logging() {
     kCSFNetworkLogContext = [[SFLogger sharedLogger] registerIdentifier:CSFNetworkLogIdentifier];
 }
-
-#pragma clang diagnostic pop
 
 NSString * CSFMIMETypeForExtension(NSString * extension) {
     NSString *type = @"application/octet-stream";

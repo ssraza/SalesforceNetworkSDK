@@ -22,7 +22,7 @@
  WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import "SFUserAccountManager.h"
+#import <SalesforceSDKCore/SFUserAccountManager.h>
 #import "CSFNetwork+Internal.h"
 FOUNDATION_EXTERN NSString * const CSFDidChangeUserDataNotification;
 

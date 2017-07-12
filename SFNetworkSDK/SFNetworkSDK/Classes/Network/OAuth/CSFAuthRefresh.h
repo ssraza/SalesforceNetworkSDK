@@ -28,9 +28,8 @@
 @class CSFNetwork;
 @class CSFOutput;
 
-typedef void (^CSFAuthRefreshCompletionBlock) (CSFOutput *output, NSError *error) SFSDK_DEPRECATED(5.2, 6.0, "Use our SFRestAPI library instead to make REST API requests.");
+typedef void (^CSFAuthRefreshCompletionBlock) (CSFOutput *output, NSError *error);
 
-SFSDK_DEPRECATED(5.2, 6.0, "Use our SFRestAPI library instead to make REST API requests.")
 @interface CSFAuthRefresh : NSObject
 
 - (instancetype)initWithNetwork:(CSFNetwork *)network;

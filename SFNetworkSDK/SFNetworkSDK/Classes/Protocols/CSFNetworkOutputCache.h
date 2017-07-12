@@ -30,7 +30,6 @@
 /**
  Protocol description that allows arbitrary classes to define caching behavior for network output.
  */
-SFSDK_DEPRECATED(5.2, 6.0, "Use our SFRestAPI library instead to make REST API requests.")
 @protocol CSFNetworkOutputCache <NSObject>
 
 @required

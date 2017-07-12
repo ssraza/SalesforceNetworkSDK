@@ -36,7 +36,6 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  This is a class that represents an chatter action that the action executer executes
  */
-SFSDK_DEPRECATED(5.2, 6.0, "Use our SFRestAPI library instead to make REST API requests.")
 @interface CSFAction : NSOperation
 
 /** Action executor this network operation is working within.
