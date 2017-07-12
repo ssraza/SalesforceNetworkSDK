@@ -27,9 +27,9 @@
 #import "CSFNetwork+Internal.h"
 #import "CSFNetwork+Salesforce.h"
 #import "CSFAction+Internal.h"
-#import "SFAuthenticationManager.h"
+#import <SalesforceSDKCore/SFAuthenticationManager.h>
 #import "CSFInternalDefines.h"
-#import "SalesforceSDKManager.h"
+#import <SalesforceSDKCore/SalesforceSDKManager.h>
 
 // Value transformers used by model objects
 #import "CSFDateValueTransformer.h"

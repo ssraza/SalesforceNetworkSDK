@@ -26,9 +26,9 @@
 #import "CSFNetwork+Internal.h"
 #import "CSFInternalDefines.h"
 #import "CSFSalesforceOAuthRefresh.h"
-#import "SFUserAccount.h"
-#import "SFOAuthCredentials.h"
-#import "SFUserAccountManager.h"
+#import <SalesforceSDKCore/SFUserAccount.h>
+#import <SalesforceSDKCore/SFOAuthCredentials.h>
+#import <SalesforceSDKCore/SFUserAccountManager.h>
 #import "NSURL+SFStringUtils.h"
 #import "CSFNetwork+Salesforce.h"
 

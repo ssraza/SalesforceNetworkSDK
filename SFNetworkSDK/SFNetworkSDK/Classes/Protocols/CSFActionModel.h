@@ -23,7 +23,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "SalesforceSDKConstants.h"
+#import <SalesforceSDKCore/SalesforceSDKConstants.h>
 
 /**
  This protocol represents objects that can be used as the model class for a CSFAction.

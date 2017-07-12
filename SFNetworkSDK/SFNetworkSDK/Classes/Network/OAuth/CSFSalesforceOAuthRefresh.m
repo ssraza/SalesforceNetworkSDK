@@ -27,9 +27,9 @@
 #import "CSFAuthRefresh+Internal.h"
 #import "CSFOAuthTokenRefreshOutput.h"
 #import "CSFInternalDefines.h"
-#import "SFOAuthCoordinator.h"
-#import "SFAuthenticationManager.h"
-#import "SFSDKEventBuilderHelper.h"
+#import <SalesforceSDKCore/SFOAuthCoordinator.h>
+#import <SalesforceSDKCore/SFAuthenticationManager.h>
+#import <SalesforceSDKCore/SFSDKEventBuilderHelper.h>
 #import "SFLogger.h"
 
 @interface CSFSalesforceOAuthRefresh () <SFOAuthCoordinatorDelegate>

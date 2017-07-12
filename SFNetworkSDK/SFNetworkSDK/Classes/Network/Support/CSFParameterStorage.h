@@ -24,7 +24,7 @@
 
 #import <Foundation/Foundation.h>
 #import "CSFDefines.h"
-#import "SalesforceSDKConstants.h"
+#import <SalesforceSDKCore/SalesforceSDKConstants.h>
 
 /**
  Class that declares an abstract interface for working with HTTP request parameters.

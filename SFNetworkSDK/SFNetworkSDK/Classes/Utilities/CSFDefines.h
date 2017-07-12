@@ -23,7 +23,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "SalesforceSDKConstants.h"
+#import <SalesforceSDKCore/SalesforceSDKConstants.h>
 
 #ifndef CSF_EXTERN
 #ifdef __cplusplus

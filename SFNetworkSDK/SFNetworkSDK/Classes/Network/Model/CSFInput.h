@@ -25,7 +25,7 @@
 #import <Foundation/Foundation.h>
 #import "CSFAvailability.h"
 #import "CSFActionInput.h"
-#import "SalesforceSDKConstants.h"
+#import <SalesforceSDKCore/SalesforceSDKConstants.h>
 
 /**
  Instances of this class can be used as the input model for complex POST or PATCH network requests.

@@ -25,8 +25,7 @@
 #import <CocoaLumberjack/CocoaLumberjack.h>
 #import <CocoaLumberjack/DDContextFilterLogFormatter.h>
 #import <os/log.h>
-
-#import "NSData+SFAdditions.h"
+#import <SalesforceSDKCore/NSData+SFAdditions.h>
 #import "SFLogger_Internal.h"
 #import "SFPathUtil.h"
 #import "NSString+SFAdditions.h"

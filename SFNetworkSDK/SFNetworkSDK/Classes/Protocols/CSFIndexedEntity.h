@@ -23,7 +23,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "SalesforceSDKConstants.h"
+#import <SalesforceSDKCore/SalesforceSDKConstants.h>
 
 /** The `CSFIndexedEntity` protocol indicates that an instance of `CSFOutput`
  has an indexable property bound to it that is capable of being used to uniquely identify

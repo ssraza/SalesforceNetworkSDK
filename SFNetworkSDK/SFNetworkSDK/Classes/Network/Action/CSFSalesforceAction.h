@@ -23,7 +23,7 @@
  */
 
 #import "CSFAction.h"
-#import "SalesforceSDKConstants.h"
+#import <<SalesforceSDKCore/SalesforceSDKConstants.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

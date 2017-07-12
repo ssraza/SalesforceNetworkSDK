@@ -23,7 +23,6 @@
  */
 
 #import "CSFAction.h"
-
 #import "CSFActionModel.h"
 #import "CSFInternalDefines.h"
 #import "CSFAuthRefresh.h"

@@ -23,7 +23,7 @@
  */
 
 #import "CSFURLValueTransformer.h"
-#import "NSString+SFAdditions.h"
+#import <SalesforceSDKCore/NSString+SFAdditions.h>
 
 NSString * const CSFURLValueTransformerName = @"CSFURLValueTransformer";
 
