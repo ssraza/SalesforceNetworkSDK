@@ -26,7 +26,7 @@
 #import "CSFInternalDefines.h"
 #import <SalesforceSDKCore/SFUserAccount.h>
 #import <SalesforceSDKCore/SFOAuthCoordinator.h>
-#import "NSString+SFAdditions.h"
+#import <SalesforceSDKCore/NSString+SFAdditions.h>
 
 NSString * const CSFPropertyReadonlyKey = @"readonly";
 NSString * const CSFPropertyAtomicKey = @"atomic";

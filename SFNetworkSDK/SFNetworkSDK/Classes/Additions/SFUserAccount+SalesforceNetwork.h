@@ -22,7 +22,7 @@
  WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import "SFUserAccount.h"
+#import <SalesforceSDKCore/SFUserAccount.h>
 
 @class CSFNetwork;
 @interface SFUserAccount (SalesforceNetwork)

@@ -29,7 +29,7 @@
 #import <SalesforceSDKCore/SFUserAccount.h>
 #import <SalesforceSDKCore/SFOAuthCredentials.h>
 #import <SalesforceSDKCore/SFUserAccountManager.h>
-#import "NSURL+SFStringUtils.h"
+#import <SalesforceSDKCore/NSURL+SFStringUtils.h>
 #import "CSFNetwork+Salesforce.h"
 
 NSString * const CSFAuthorizationHeaderValueFormat = @"OAuth %@";

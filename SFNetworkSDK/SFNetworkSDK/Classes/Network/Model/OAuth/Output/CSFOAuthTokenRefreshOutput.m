@@ -26,7 +26,7 @@
 #import "CSFOutput_Internal.h"
 #import "CSFDefines.h"
 #import "CSFInternalDefines.h"
-#import "SFOAuthCoordinator.h"
+#import <SalesforceSDKCore/SFOAuthCoordinator.h>
 
 @implementation CSFOAuthTokenRefreshOutput
 

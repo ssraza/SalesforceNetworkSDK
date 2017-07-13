@@ -27,8 +27,8 @@
 #import <os/log.h>
 #import <SalesforceSDKCore/NSData+SFAdditions.h>
 #import "SFLogger_Internal.h"
-#import "SFPathUtil.h"
-#import "NSString+SFAdditions.h"
+#import <SalesforceSDKCore/SFPathUtil.h>
+#import <SalesforceSDKCore/NSString+SFAdditions.h>
 #import <execinfo.h> // backtrace_symbols
 #import "SFCocoaLumberJackCustomFormatter.h"
 #import "SFLoggerMacros.h"
