@@ -1016,6 +1016,7 @@
 		CE3E730D1F159C1300439564 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../SalesforceMobileSDK/external/ocmock/Source/**";
 				INFOPLIST_FILE = SFNetworkSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.modulemap";
@@ -1028,6 +1029,7 @@
 		CE3E730E1F159C1300439564 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../SalesforceMobileSDK/external/ocmock/Source/**";
 				INFOPLIST_FILE = SFNetworkSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.modulemap";
