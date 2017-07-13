@@ -228,6 +228,8 @@
 		CE3E74161F16C95D00439564 /* CSFURLValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSFURLValueTransformer.m; path = Classes/Utilities/ValueTransformers/CSFURLValueTransformer.m; sourceTree = "<group>"; };
 		CE3E74171F16C95D00439564 /* CSFUTF8StringValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSFUTF8StringValueTransformer.h; path = Classes/Utilities/ValueTransformers/CSFUTF8StringValueTransformer.h; sourceTree = "<group>"; };
 		CE3E74181F16C95D00439564 /* CSFUTF8StringValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSFUTF8StringValueTransformer.m; path = Classes/Utilities/ValueTransformers/CSFUTF8StringValueTransformer.m; sourceTree = "<group>"; };
+		CE3E743C1F16EBC400439564 /* SFNetworkSDK.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = SFNetworkSDK.modulemap; path = Resources/SFNetworkSDK.modulemap; sourceTree = "<group>"; };
+		CE3E743D1F16EBC400439564 /* SFNetworkSDK.private.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = SFNetworkSDK.private.modulemap; path = Resources/SFNetworkSDK.private.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +257,7 @@
 		CE3E72EB1F159C1300439564 = {
 			isa = PBXGroup;
 			children = (
+				CE3E74391F16EB2200439564 /* Resources */,
 				CE3E73231F159FB100439564 /* Frameworks */,
 				CE3E72F71F159C1300439564 /* SFNetworkSDK */,
 				CE3E73021F159C1300439564 /* SFNetworkSDKTests */,
@@ -499,6 +502,15 @@
 				CE3E73C01F16C8FC00439564 /* CSFOAuthTokenRefreshInput.m */,
 			);
 			name = Input;
+			sourceTree = "<group>";
+		};
+		CE3E74391F16EB2200439564 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E743C1F16EBC400439564 /* SFNetworkSDK.modulemap */,
+				CE3E743D1F16EBC400439564 /* SFNetworkSDK.private.modulemap */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -880,6 +892,8 @@
 				INFOPLIST_FILE = SFNetworkSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/SFNetworkSDK/Resources/SFNetworkSDK.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/SFNetworkSDK/Resources/SFNetworkSDK.private.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.SFNetworkSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -897,6 +911,8 @@
 				INFOPLIST_FILE = SFNetworkSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/SFNetworkSDK/Resources/SFNetworkSDK.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/SFNetworkSDK/Resources/SFNetworkSDK.private.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.SFNetworkSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
