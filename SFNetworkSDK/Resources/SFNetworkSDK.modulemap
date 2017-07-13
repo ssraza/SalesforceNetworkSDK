@@ -1,5 +1,5 @@
-framework module SalesforceSDKCore {
-  umbrella header "SalesforceSDKCore.h"
+framework module SFNetworkSDK {
+  umbrella header "SFNetworkSDK.h"
 
   export *
   module * { export * }

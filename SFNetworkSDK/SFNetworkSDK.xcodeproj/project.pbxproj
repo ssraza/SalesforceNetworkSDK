@@ -892,8 +892,8 @@
 				INFOPLIST_FILE = SFNetworkSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "$(SRCROOT)/SFNetworkSDK/Resources/SFNetworkSDK.modulemap";
-				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/SFNetworkSDK/Resources/SFNetworkSDK.private.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.private.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.SFNetworkSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -911,8 +911,8 @@
 				INFOPLIST_FILE = SFNetworkSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "$(SRCROOT)/SFNetworkSDK/Resources/SFNetworkSDK.modulemap";
-				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/SFNetworkSDK/Resources/SFNetworkSDK.private.modulemap";
+				MODULEMAP_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.private.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.SFNetworkSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -958,6 +958,7 @@
 				CE3E730B1F159C1300439564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE3E730C1F159C1300439564 /* Build configuration list for PBXNativeTarget "SFNetworkSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -966,6 +967,7 @@
 				CE3E730E1F159C1300439564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
