@@ -7,8 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE02838F1F172B06004764BF /* CSFActionParameterStorageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0283821F172B06004764BF /* CSFActionParameterStorageTests.m */; };
+		CE0283901F172B06004764BF /* CSFActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0283831F172B06004764BF /* CSFActionTest.m */; };
+		CE0283911F172B06004764BF /* CSFInputStreamElementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0283841F172B06004764BF /* CSFInputStreamElementTests.m */; };
+		CE0283921F172B06004764BF /* CSFInputTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0283851F172B06004764BF /* CSFInputTests.m */; };
+		CE0283931F172B06004764BF /* CSFMultipartInputStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0283861F172B06004764BF /* CSFMultipartInputStreamTests.m */; };
+		CE0283941F172B06004764BF /* CSFOutputTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0283871F172B06004764BF /* CSFOutputTests.m */; };
+		CE0283951F172B06004764BF /* CSFSalesforceActionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0283881F172B06004764BF /* CSFSalesforceActionTests.m */; };
+		CE0283961F172B06004764BF /* CSFSalesforceOAuthRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0283891F172B06004764BF /* CSFSalesforceOAuthRefreshTests.m */; };
+		CE0283971F172B06004764BF /* InternalFunctionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02838A1F172B06004764BF /* InternalFunctionTests.m */; };
+		CE0283981F172B06004764BF /* MockNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02838B1F172B06004764BF /* MockNetworkTests.m */; };
+		CE0283991F172B06004764BF /* SalesforceNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02838C1F172B06004764BF /* SalesforceNetworkTests.m */; };
+		CE02839A1F172B06004764BF /* SFLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02838D1F172B06004764BF /* SFLoggerTests.m */; };
+		CE02839B1F172B06004764BF /* ValueTransformerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02838E1F172B06004764BF /* ValueTransformerTests.m */; };
+		CE02839F1F172D3D004764BF /* TestDataAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02839E1F172D3D004764BF /* TestDataAction.m */; };
+		CE0283A21F172DAD004764BF /* SimpleFile.json in Resources */ = {isa = PBXBuildFile; fileRef = CE0283A11F172DAD004764BF /* SimpleFile.json */; };
+		CE0283A41F172E18004764BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0283A31F172E18004764BF /* XCTest.framework */; };
+		CE0283A61F172E1F004764BF /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0283A51F172E1F004764BF /* OCMock.framework */; };
+		CE0283A81F172E2E004764BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0283A71F172E2E004764BF /* UIKit.framework */; };
+		CE0283AA1F172E35004764BF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0283A91F172E35004764BF /* MessageUI.framework */; };
+		CE0283AC1F172E3C004764BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0283AB1F172E3C004764BF /* Foundation.framework */; };
 		CE3E72FF1F159C1300439564 /* SFNetworkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3E72F51F159C1300439564 /* SFNetworkSDK.framework */; };
-		CE3E73041F159C1300439564 /* SFNetworkSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73031F159C1300439564 /* SFNetworkSDKTests.m */; };
 		CE3E73061F159C1300439564 /* SFNetworkSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E72F81F159C1300439564 /* SFNetworkSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3E73371F159FEB00439564 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3E73361F159FEB00439564 /* CocoaLumberjack.framework */; };
 		CE3E73391F159FF300439564 /* SalesforceAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3E73381F159FF300439564 /* SalesforceAnalytics.framework */; };
@@ -140,11 +159,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE0283821F172B06004764BF /* CSFActionParameterStorageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFActionParameterStorageTests.m; sourceTree = "<group>"; };
+		CE0283831F172B06004764BF /* CSFActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFActionTest.m; sourceTree = "<group>"; };
+		CE0283841F172B06004764BF /* CSFInputStreamElementTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFInputStreamElementTests.m; sourceTree = "<group>"; };
+		CE0283851F172B06004764BF /* CSFInputTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFInputTests.m; sourceTree = "<group>"; };
+		CE0283861F172B06004764BF /* CSFMultipartInputStreamTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFMultipartInputStreamTests.m; sourceTree = "<group>"; };
+		CE0283871F172B06004764BF /* CSFOutputTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFOutputTests.m; sourceTree = "<group>"; };
+		CE0283881F172B06004764BF /* CSFSalesforceActionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFSalesforceActionTests.m; sourceTree = "<group>"; };
+		CE0283891F172B06004764BF /* CSFSalesforceOAuthRefreshTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFSalesforceOAuthRefreshTests.m; sourceTree = "<group>"; };
+		CE02838A1F172B06004764BF /* InternalFunctionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternalFunctionTests.m; sourceTree = "<group>"; };
+		CE02838B1F172B06004764BF /* MockNetworkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockNetworkTests.m; sourceTree = "<group>"; };
+		CE02838C1F172B06004764BF /* SalesforceNetworkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesforceNetworkTests.m; sourceTree = "<group>"; };
+		CE02838D1F172B06004764BF /* SFLoggerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFLoggerTests.m; sourceTree = "<group>"; };
+		CE02838E1F172B06004764BF /* ValueTransformerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueTransformerTests.m; sourceTree = "<group>"; };
+		CE02839D1F172D3D004764BF /* TestDataAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestDataAction.h; path = Utilities/TestDataAction.h; sourceTree = "<group>"; };
+		CE02839E1F172D3D004764BF /* TestDataAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestDataAction.m; path = Utilities/TestDataAction.m; sourceTree = "<group>"; };
+		CE0283A11F172DAD004764BF /* SimpleFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = SimpleFile.json; path = Resources/SimpleFile.json; sourceTree = "<group>"; };
+		CE0283A31F172E18004764BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE0283A51F172E1F004764BF /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = ../SalesforceMobileSDK/external/ocmock/Source/build/Debug/OCMock.framework; sourceTree = "<group>"; };
+		CE0283A71F172E2E004764BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE0283A91F172E35004764BF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CE0283AB1F172E3C004764BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE3E72F51F159C1300439564 /* SFNetworkSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFNetworkSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3E72F81F159C1300439564 /* SFNetworkSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFNetworkSDK.h; sourceTree = "<group>"; };
 		CE3E72F91F159C1300439564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3E72FE1F159C1300439564 /* SFNetworkSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFNetworkSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE3E73031F159C1300439564 /* SFNetworkSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFNetworkSDKTests.m; sourceTree = "<group>"; };
 		CE3E73051F159C1300439564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3E73241F159FCC00439564 /* SalesforceSDKCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SalesforceSDKCore.xcodeproj; path = ../SalesforceMobileSDK/libs/SalesforceSDKCore/SalesforceSDKCore.xcodeproj; sourceTree = "<group>"; };
 		CE3E73361F159FEB00439564 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = "../SalesforceMobileSDK/external/CocoaLumberjack/build/Debug-iphoneos/CocoaLumberjack.framework"; sourceTree = "<group>"; };
@@ -247,6 +286,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0283AC1F172E3C004764BF /* Foundation.framework in Frameworks */,
+				CE0283AA1F172E35004764BF /* MessageUI.framework in Frameworks */,
+				CE0283A81F172E2E004764BF /* UIKit.framework in Frameworks */,
+				CE0283A61F172E1F004764BF /* OCMock.framework in Frameworks */,
+				CE0283A41F172E18004764BF /* XCTest.framework in Frameworks */,
 				CE3E72FF1F159C1300439564 /* SFNetworkSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +298,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE02839C1F172D1F004764BF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CE02839D1F172D3D004764BF /* TestDataAction.h */,
+				CE02839E1F172D3D004764BF /* TestDataAction.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		CE0283A01F172D9D004764BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE0283A11F172DAD004764BF /* SimpleFile.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		CE3E72EB1F159C1300439564 = {
 			isa = PBXGroup;
 			children = (
@@ -291,7 +352,21 @@
 		CE3E73021F159C1300439564 /* SFNetworkSDKTests */ = {
 			isa = PBXGroup;
 			children = (
-				CE3E73031F159C1300439564 /* SFNetworkSDKTests.m */,
+				CE0283A01F172D9D004764BF /* Resources */,
+				CE02839C1F172D1F004764BF /* Utilities */,
+				CE0283821F172B06004764BF /* CSFActionParameterStorageTests.m */,
+				CE0283831F172B06004764BF /* CSFActionTest.m */,
+				CE0283841F172B06004764BF /* CSFInputStreamElementTests.m */,
+				CE0283851F172B06004764BF /* CSFInputTests.m */,
+				CE0283861F172B06004764BF /* CSFMultipartInputStreamTests.m */,
+				CE0283871F172B06004764BF /* CSFOutputTests.m */,
+				CE0283881F172B06004764BF /* CSFSalesforceActionTests.m */,
+				CE0283891F172B06004764BF /* CSFSalesforceOAuthRefreshTests.m */,
+				CE02838A1F172B06004764BF /* InternalFunctionTests.m */,
+				CE02838B1F172B06004764BF /* MockNetworkTests.m */,
+				CE02838C1F172B06004764BF /* SalesforceNetworkTests.m */,
+				CE02838D1F172B06004764BF /* SFLoggerTests.m */,
+				CE02838E1F172B06004764BF /* ValueTransformerTests.m */,
 				CE3E73051F159C1300439564 /* Info.plist */,
 			);
 			path = SFNetworkSDKTests;
@@ -300,6 +375,11 @@
 		CE3E73231F159FB100439564 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE0283AB1F172E3C004764BF /* Foundation.framework */,
+				CE0283A91F172E35004764BF /* MessageUI.framework */,
+				CE0283A71F172E2E004764BF /* UIKit.framework */,
+				CE0283A51F172E1F004764BF /* OCMock.framework */,
+				CE0283A31F172E18004764BF /* XCTest.framework */,
 				CE3E73381F159FF300439564 /* SalesforceAnalytics.framework */,
 				CE3E73361F159FEB00439564 /* CocoaLumberjack.framework */,
 				CE3E73241F159FCC00439564 /* SalesforceSDKCore.xcodeproj */,
@@ -698,6 +778,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0283A21F172DAD004764BF /* SimpleFile.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -763,7 +844,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3E73041F159C1300439564 /* SFNetworkSDKTests.m in Sources */,
+				CE0283931F172B06004764BF /* CSFMultipartInputStreamTests.m in Sources */,
+				CE02839F1F172D3D004764BF /* TestDataAction.m in Sources */,
+				CE0283951F172B06004764BF /* CSFSalesforceActionTests.m in Sources */,
+				CE02839A1F172B06004764BF /* SFLoggerTests.m in Sources */,
+				CE0283961F172B06004764BF /* CSFSalesforceOAuthRefreshTests.m in Sources */,
+				CE0283941F172B06004764BF /* CSFOutputTests.m in Sources */,
+				CE0283971F172B06004764BF /* InternalFunctionTests.m in Sources */,
+				CE0283911F172B06004764BF /* CSFInputStreamElementTests.m in Sources */,
+				CE02838F1F172B06004764BF /* CSFActionParameterStorageTests.m in Sources */,
+				CE0283991F172B06004764BF /* SalesforceNetworkTests.m in Sources */,
+				CE0283901F172B06004764BF /* CSFActionTest.m in Sources */,
+				CE02839B1F172B06004764BF /* ValueTransformerTests.m in Sources */,
+				CE0283921F172B06004764BF /* CSFInputTests.m in Sources */,
+				CE0283981F172B06004764BF /* MockNetworkTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -924,6 +1018,8 @@
 			buildSettings = {
 				INFOPLIST_FILE = SFNetworkSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.private.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.SFNetworkSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -934,6 +1030,8 @@
 			buildSettings = {
 				INFOPLIST_FILE = SFNetworkSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.modulemap";
+				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.private.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.SFNetworkSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
