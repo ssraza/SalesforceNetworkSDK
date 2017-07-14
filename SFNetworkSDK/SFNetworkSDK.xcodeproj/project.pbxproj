@@ -23,7 +23,6 @@
 		CE02839F1F172D3D004764BF /* TestDataAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02839E1F172D3D004764BF /* TestDataAction.m */; };
 		CE0283A21F172DAD004764BF /* SimpleFile.json in Resources */ = {isa = PBXBuildFile; fileRef = CE0283A11F172DAD004764BF /* SimpleFile.json */; };
 		CE0283A41F172E18004764BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0283A31F172E18004764BF /* XCTest.framework */; };
-		CE0283A61F172E1F004764BF /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0283A51F172E1F004764BF /* OCMock.framework */; };
 		CE0283A81F172E2E004764BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0283A71F172E2E004764BF /* UIKit.framework */; };
 		CE0283AA1F172E35004764BF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0283A91F172E35004764BF /* MessageUI.framework */; };
 		CE0283AC1F172E3C004764BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0283AB1F172E3C004764BF /* Foundation.framework */; };
@@ -111,6 +110,7 @@
 		CE3E74201F16C95D00439564 /* CSFURLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E74161F16C95D00439564 /* CSFURLValueTransformer.m */; };
 		CE3E74211F16C95D00439564 /* CSFUTF8StringValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E74171F16C95D00439564 /* CSFUTF8StringValueTransformer.h */; };
 		CE3E74221F16C95D00439564 /* CSFUTF8StringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E74181F16C95D00439564 /* CSFUTF8StringValueTransformer.m */; };
+		CE3E74721F184CA600439564 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3E74711F184CA600439564 /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -269,6 +269,7 @@
 		CE3E74181F16C95D00439564 /* CSFUTF8StringValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSFUTF8StringValueTransformer.m; path = Classes/Utilities/ValueTransformers/CSFUTF8StringValueTransformer.m; sourceTree = "<group>"; };
 		CE3E743C1F16EBC400439564 /* SFNetworkSDK.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = SFNetworkSDK.modulemap; path = Resources/SFNetworkSDK.modulemap; sourceTree = "<group>"; };
 		CE3E743D1F16EBC400439564 /* SFNetworkSDK.private.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = SFNetworkSDK.private.modulemap; path = Resources/SFNetworkSDK.private.modulemap; sourceTree = "<group>"; };
+		CE3E74711F184CA600439564 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = "../SalesforceMobileSDK/external/ocmock/Source/build/Debug-iphoneos/libOCMock.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,10 +287,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3E74721F184CA600439564 /* libOCMock.a in Frameworks */,
 				CE0283AC1F172E3C004764BF /* Foundation.framework in Frameworks */,
 				CE0283AA1F172E35004764BF /* MessageUI.framework in Frameworks */,
 				CE0283A81F172E2E004764BF /* UIKit.framework in Frameworks */,
-				CE0283A61F172E1F004764BF /* OCMock.framework in Frameworks */,
 				CE0283A41F172E18004764BF /* XCTest.framework in Frameworks */,
 				CE3E72FF1F159C1300439564 /* SFNetworkSDK.framework in Frameworks */,
 			);
@@ -375,6 +376,7 @@
 		CE3E73231F159FB100439564 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE3E74711F184CA600439564 /* libOCMock.a */,
 				CE0283AB1F172E3C004764BF /* Foundation.framework */,
 				CE0283A91F172E35004764BF /* MessageUI.framework */,
 				CE0283A71F172E2E004764BF /* UIKit.framework */,
