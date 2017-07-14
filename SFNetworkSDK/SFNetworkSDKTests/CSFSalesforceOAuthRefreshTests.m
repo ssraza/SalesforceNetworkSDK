@@ -24,7 +24,7 @@
 
 #import <XCTest/XCTest.h>
 #import "CSFSalesforceAction.h"
-#import <SalesforceSDKCore/SFUserAccountManager+Internal.h>
+#import <SalesforceSDKCore/SFUserAccountManager.h>
 #import <SalesforceSDKCore/SFOAuthCoordinator.h>
 #import <SalesforceSDKCore/SFAuthenticationManager.h>
 #import "CSFSalesforceOAuthRefresh.h"
