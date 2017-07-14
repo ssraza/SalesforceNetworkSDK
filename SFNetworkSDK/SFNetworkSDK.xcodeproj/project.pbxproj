@@ -17,7 +17,6 @@
 		CE0283961F172B06004764BF /* CSFSalesforceOAuthRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0283891F172B06004764BF /* CSFSalesforceOAuthRefreshTests.m */; };
 		CE0283971F172B06004764BF /* InternalFunctionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02838A1F172B06004764BF /* InternalFunctionTests.m */; };
 		CE0283981F172B06004764BF /* MockNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02838B1F172B06004764BF /* MockNetworkTests.m */; };
-		CE0283991F172B06004764BF /* SalesforceNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02838C1F172B06004764BF /* SalesforceNetworkTests.m */; };
 		CE02839A1F172B06004764BF /* SFLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02838D1F172B06004764BF /* SFLoggerTests.m */; };
 		CE02839B1F172B06004764BF /* ValueTransformerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02838E1F172B06004764BF /* ValueTransformerTests.m */; };
 		CE02839F1F172D3D004764BF /* TestDataAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02839E1F172D3D004764BF /* TestDataAction.m */; };
@@ -169,7 +168,6 @@
 		CE0283891F172B06004764BF /* CSFSalesforceOAuthRefreshTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFSalesforceOAuthRefreshTests.m; sourceTree = "<group>"; };
 		CE02838A1F172B06004764BF /* InternalFunctionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternalFunctionTests.m; sourceTree = "<group>"; };
 		CE02838B1F172B06004764BF /* MockNetworkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockNetworkTests.m; sourceTree = "<group>"; };
-		CE02838C1F172B06004764BF /* SalesforceNetworkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesforceNetworkTests.m; sourceTree = "<group>"; };
 		CE02838D1F172B06004764BF /* SFLoggerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFLoggerTests.m; sourceTree = "<group>"; };
 		CE02838E1F172B06004764BF /* ValueTransformerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueTransformerTests.m; sourceTree = "<group>"; };
 		CE02839D1F172D3D004764BF /* TestDataAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestDataAction.h; path = Utilities/TestDataAction.h; sourceTree = "<group>"; };
@@ -365,7 +363,6 @@
 				CE0283891F172B06004764BF /* CSFSalesforceOAuthRefreshTests.m */,
 				CE02838A1F172B06004764BF /* InternalFunctionTests.m */,
 				CE02838B1F172B06004764BF /* MockNetworkTests.m */,
-				CE02838C1F172B06004764BF /* SalesforceNetworkTests.m */,
 				CE02838D1F172B06004764BF /* SFLoggerTests.m */,
 				CE02838E1F172B06004764BF /* ValueTransformerTests.m */,
 				CE3E73051F159C1300439564 /* Info.plist */,
@@ -855,7 +852,6 @@
 				CE0283971F172B06004764BF /* InternalFunctionTests.m in Sources */,
 				CE0283911F172B06004764BF /* CSFInputStreamElementTests.m in Sources */,
 				CE02838F1F172B06004764BF /* CSFActionParameterStorageTests.m in Sources */,
-				CE0283991F172B06004764BF /* SalesforceNetworkTests.m in Sources */,
 				CE0283901F172B06004764BF /* CSFActionTest.m in Sources */,
 				CE02839B1F172B06004764BF /* ValueTransformerTests.m in Sources */,
 				CE0283921F172B06004764BF /* CSFInputTests.m in Sources */,
