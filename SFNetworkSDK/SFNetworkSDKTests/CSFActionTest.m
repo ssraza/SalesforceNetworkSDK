@@ -25,7 +25,7 @@
 #import <Foundation/Foundation.h>
 #import <XCTest/XCTest.h>
 #import "TestDataAction.h"
-#import "SalesforceSDKConstants.h"
+#import <SalesforceSDKCore/SalesforceSDKConstants.h>
 
 @interface MockDelegate : NSObject<CSFNetworkDelegate>
 
