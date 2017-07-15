@@ -1068,6 +1068,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.modulemap";
 				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.private.modulemap";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.SFNetworkSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1087,6 +1088,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.modulemap";
 				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.private.modulemap";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.SFNetworkSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1101,6 +1103,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.modulemap";
 				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.private.modulemap";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.SFNetworkSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1114,6 +1117,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.modulemap";
 				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/Resources/SFNetworkSDK.private.modulemap";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.SFNetworkSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
