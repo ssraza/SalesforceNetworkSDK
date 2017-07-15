@@ -25,6 +25,7 @@
 		CE0283A81F172E2E004764BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0283A71F172E2E004764BF /* UIKit.framework */; };
 		CE0283AA1F172E35004764BF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0283A91F172E35004764BF /* MessageUI.framework */; };
 		CE0283AC1F172E3C004764BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0283AB1F172E3C004764BF /* Foundation.framework */; };
+		CE0284081F1A7C9C004764BF /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0284021F1A7C27004764BF /* libOCMock.a */; };
 		CE3E72FF1F159C1300439564 /* SFNetworkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3E72F51F159C1300439564 /* SFNetworkSDK.framework */; };
 		CE3E73061F159C1300439564 /* SFNetworkSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E72F81F159C1300439564 /* SFNetworkSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3E73371F159FEB00439564 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3E73361F159FEB00439564 /* CocoaLumberjack.framework */; };
@@ -42,21 +43,21 @@
 		CE3E73981F16C8B400439564 /* SFUserAccount+SalesforceNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E738E1F16C8B400439564 /* SFUserAccount+SalesforceNetwork.m */; };
 		CE3E73A01F16C8C200439564 /* SFCocoaLumberJackCustomFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73991F16C8C200439564 /* SFCocoaLumberJackCustomFormatter.h */; };
 		CE3E73A11F16C8C200439564 /* SFCocoaLumberJackCustomFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E739A1F16C8C200439564 /* SFCocoaLumberJackCustomFormatter.m */; };
-		CE3E73A21F16C8C200439564 /* SFLogger_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E739B1F16C8C200439564 /* SFLogger_Internal.h */; };
+		CE3E73A21F16C8C200439564 /* SFLogger_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E739B1F16C8C200439564 /* SFLogger_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CE3E73A31F16C8C200439564 /* SFLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E739C1F16C8C200439564 /* SFLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3E73A41F16C8C200439564 /* SFLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E739D1F16C8C200439564 /* SFLogger.m */; };
 		CE3E73A51F16C8C200439564 /* SFLoggerMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E739E1F16C8C200439564 /* SFLoggerMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3E73A61F16C8C200439564 /* SFLogStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E739F1F16C8C200439564 /* SFLogStorage.h */; };
 		CE3E73AD1F16C8D600439564 /* CSFAction.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73A71F16C8D600439564 /* CSFAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3E73AE1F16C8D600439564 /* CSFAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73A81F16C8D600439564 /* CSFAction.m */; };
-		CE3E73AF1F16C8D600439564 /* CSFAction+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73A91F16C8D600439564 /* CSFAction+Internal.h */; };
-		CE3E73B01F16C8D600439564 /* CSFSalesforceAction_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73AA1F16C8D600439564 /* CSFSalesforceAction_Internal.h */; };
+		CE3E73AF1F16C8D600439564 /* CSFAction+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73A91F16C8D600439564 /* CSFAction+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CE3E73B01F16C8D600439564 /* CSFSalesforceAction_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73AA1F16C8D600439564 /* CSFSalesforceAction_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CE3E73B11F16C8D600439564 /* CSFSalesforceAction.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73AB1F16C8D600439564 /* CSFSalesforceAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3E73B21F16C8D600439564 /* CSFSalesforceAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73AC1F16C8D600439564 /* CSFSalesforceAction.m */; };
-		CE3E73B91F16C8EB00439564 /* CSFInput_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73B31F16C8EB00439564 /* CSFInput_Internal.h */; };
+		CE3E73B91F16C8EB00439564 /* CSFInput_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73B31F16C8EB00439564 /* CSFInput_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CE3E73BA1F16C8EB00439564 /* CSFInput.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73B41F16C8EB00439564 /* CSFInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3E73BB1F16C8EB00439564 /* CSFInput.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73B51F16C8EB00439564 /* CSFInput.m */; };
-		CE3E73BC1F16C8EB00439564 /* CSFOutput_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73B61F16C8EB00439564 /* CSFOutput_Internal.h */; };
+		CE3E73BC1F16C8EB00439564 /* CSFOutput_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73B61F16C8EB00439564 /* CSFOutput_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CE3E73BD1F16C8EB00439564 /* CSFOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73B71F16C8EB00439564 /* CSFOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3E73BE1F16C8EB00439564 /* CSFOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73B81F16C8EB00439564 /* CSFOutput.m */; };
 		CE3E73C11F16C8FC00439564 /* CSFOAuthTokenRefreshInput.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73BF1F16C8FC00439564 /* CSFOAuthTokenRefreshInput.h */; };
@@ -65,7 +66,7 @@
 		CE3E73C61F16C90A00439564 /* CSFOAuthTokenRefreshOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73C41F16C90A00439564 /* CSFOAuthTokenRefreshOutput.m */; };
 		CE3E73CE1F16C91C00439564 /* CSFAuthRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73C71F16C91C00439564 /* CSFAuthRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3E73CF1F16C91C00439564 /* CSFAuthRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73C81F16C91C00439564 /* CSFAuthRefresh.m */; };
-		CE3E73D01F16C91C00439564 /* CSFAuthRefresh+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73C91F16C91C00439564 /* CSFAuthRefresh+Internal.h */; };
+		CE3E73D01F16C91C00439564 /* CSFAuthRefresh+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73C91F16C91C00439564 /* CSFAuthRefresh+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CE3E73D11F16C91C00439564 /* CSFSalesforceOAuthRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73CA1F16C91C00439564 /* CSFSalesforceOAuthRefresh.h */; };
 		CE3E73D21F16C91C00439564 /* CSFSalesforceOAuthRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73CB1F16C91C00439564 /* CSFSalesforceOAuthRefresh.m */; };
 		CE3E73D31F16C91C00439564 /* CSFTokenRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73CC1F16C91C00439564 /* CSFTokenRefresh.h */; };
@@ -73,14 +74,14 @@
 		CE3E73DB1F16C92A00439564 /* CSFNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73D51F16C92A00439564 /* CSFNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3E73DC1F16C92A00439564 /* CSFNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73D61F16C92A00439564 /* CSFNetwork.m */; };
 		CE3E73DD1F16C92A00439564 /* CSFNetwork+Caching.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73D71F16C92A00439564 /* CSFNetwork+Caching.m */; };
-		CE3E73DE1F16C92A00439564 /* CSFNetwork+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73D81F16C92A00439564 /* CSFNetwork+Internal.h */; };
+		CE3E73DE1F16C92A00439564 /* CSFNetwork+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73D81F16C92A00439564 /* CSFNetwork+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CE3E73DF1F16C92A00439564 /* CSFNetwork+Salesforce.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73D91F16C92A00439564 /* CSFNetwork+Salesforce.h */; };
 		CE3E73E01F16C92A00439564 /* CSFNetwork+Salesforce.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73DA1F16C92A00439564 /* CSFNetwork+Salesforce.m */; };
 		CE3E73E81F16C93700439564 /* CSFInputStreamElement.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73E11F16C93700439564 /* CSFInputStreamElement.h */; };
 		CE3E73E91F16C93700439564 /* CSFInputStreamElement.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73E21F16C93700439564 /* CSFInputStreamElement.m */; };
 		CE3E73EA1F16C93700439564 /* CSFMultipartInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73E31F16C93700439564 /* CSFMultipartInputStream.h */; };
 		CE3E73EB1F16C93700439564 /* CSFMultipartInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73E41F16C93700439564 /* CSFMultipartInputStream.m */; };
-		CE3E73EC1F16C93700439564 /* CSFParameterStorage_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73E51F16C93700439564 /* CSFParameterStorage_Internal.h */; };
+		CE3E73EC1F16C93700439564 /* CSFParameterStorage_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73E51F16C93700439564 /* CSFParameterStorage_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CE3E73ED1F16C93700439564 /* CSFParameterStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73E61F16C93700439564 /* CSFParameterStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3E73EE1F16C93700439564 /* CSFParameterStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E73E71F16C93700439564 /* CSFParameterStorage.m */; };
 		CE3E73F41F16C94300439564 /* CSFActionInput.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E73EF1F16C94300439564 /* CSFActionInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,10 +110,44 @@
 		CE3E74201F16C95D00439564 /* CSFURLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E74161F16C95D00439564 /* CSFURLValueTransformer.m */; };
 		CE3E74211F16C95D00439564 /* CSFUTF8StringValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3E74171F16C95D00439564 /* CSFUTF8StringValueTransformer.h */; };
 		CE3E74221F16C95D00439564 /* CSFUTF8StringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E74181F16C95D00439564 /* CSFUTF8StringValueTransformer.m */; };
-		CE3E74721F184CA600439564 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3E74711F184CA600439564 /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CE0283FD1F1A7C27004764BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE0283F61F1A7C26004764BF /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 030EF0A814632FD000B04273;
+			remoteInfo = OCMock;
+		};
+		CE0283FF1F1A7C27004764BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE0283F61F1A7C26004764BF /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03565A3118F0566E003AE91E;
+			remoteInfo = OCMockTests;
+		};
+		CE0284011F1A7C27004764BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE0283F61F1A7C26004764BF /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 030EF0DC14632FF700B04273;
+			remoteInfo = OCMockLib;
+		};
+		CE0284031F1A7C27004764BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE0283F61F1A7C26004764BF /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D31108AD1828DB8700737925;
+			remoteInfo = OCMockLibTests;
+		};
+		CE0284091F1A7CE2004764BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE0283F61F1A7C26004764BF /* OCMock.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 030EF0DB14632FF700B04273;
+			remoteInfo = OCMockLib;
+		};
 		CE3E73001F159C1300439564 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE3E72EC1F159C1300439564 /* Project object */;
@@ -174,10 +209,10 @@
 		CE02839E1F172D3D004764BF /* TestDataAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestDataAction.m; path = Utilities/TestDataAction.m; sourceTree = "<group>"; };
 		CE0283A11F172DAD004764BF /* SimpleFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = SimpleFile.json; path = Resources/SimpleFile.json; sourceTree = "<group>"; };
 		CE0283A31F172E18004764BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CE0283A51F172E1F004764BF /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = ../SalesforceMobileSDK/external/ocmock/Source/build/Debug/OCMock.framework; sourceTree = "<group>"; };
 		CE0283A71F172E2E004764BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE0283A91F172E35004764BF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		CE0283AB1F172E3C004764BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE0283F61F1A7C26004764BF /* OCMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMock.xcodeproj; path = ../SalesforceMobileSDK/external/ocmock/Source/OCMock.xcodeproj; sourceTree = "<group>"; };
 		CE3E72F51F159C1300439564 /* SFNetworkSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFNetworkSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3E72F81F159C1300439564 /* SFNetworkSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFNetworkSDK.h; sourceTree = "<group>"; };
 		CE3E72F91F159C1300439564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -267,7 +302,6 @@
 		CE3E74181F16C95D00439564 /* CSFUTF8StringValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSFUTF8StringValueTransformer.m; path = Classes/Utilities/ValueTransformers/CSFUTF8StringValueTransformer.m; sourceTree = "<group>"; };
 		CE3E743C1F16EBC400439564 /* SFNetworkSDK.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = SFNetworkSDK.modulemap; path = Resources/SFNetworkSDK.modulemap; sourceTree = "<group>"; };
 		CE3E743D1F16EBC400439564 /* SFNetworkSDK.private.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = SFNetworkSDK.private.modulemap; path = Resources/SFNetworkSDK.private.modulemap; sourceTree = "<group>"; };
-		CE3E74711F184CA600439564 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = "../SalesforceMobileSDK/external/ocmock/Source/build/Debug-iphoneos/libOCMock.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,7 +319,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3E74721F184CA600439564 /* libOCMock.a in Frameworks */,
+				CE0284081F1A7C9C004764BF /* libOCMock.a in Frameworks */,
 				CE0283AC1F172E3C004764BF /* Foundation.framework in Frameworks */,
 				CE0283AA1F172E35004764BF /* MessageUI.framework in Frameworks */,
 				CE0283A81F172E2E004764BF /* UIKit.framework in Frameworks */,
@@ -312,6 +346,17 @@
 				CE0283A11F172DAD004764BF /* SimpleFile.json */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE0283F71F1A7C26004764BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE0283FE1F1A7C27004764BF /* OCMock.framework */,
+				CE0284001F1A7C27004764BF /* OCMockTests.xctest */,
+				CE0284021F1A7C27004764BF /* libOCMock.a */,
+				CE0284041F1A7C27004764BF /* OCMockLibTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CE3E72EB1F159C1300439564 = {
@@ -373,11 +418,10 @@
 		CE3E73231F159FB100439564 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE3E74711F184CA600439564 /* libOCMock.a */,
+				CE0283F61F1A7C26004764BF /* OCMock.xcodeproj */,
 				CE0283AB1F172E3C004764BF /* Foundation.framework */,
 				CE0283A91F172E35004764BF /* MessageUI.framework */,
 				CE0283A71F172E2E004764BF /* UIKit.framework */,
-				CE0283A51F172E1F004764BF /* OCMock.framework */,
 				CE0283A31F172E18004764BF /* XCTest.framework */,
 				CE3E73381F159FF300439564 /* SalesforceAnalytics.framework */,
 				CE3E73361F159FEB00439564 /* CocoaLumberjack.framework */,
@@ -684,6 +728,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				CE02840A1F1A7CE2004764BF /* PBXTargetDependency */,
 				CE3E73011F159C1300439564 /* PBXTargetDependency */,
 			);
 			name = SFNetworkSDKTests;
@@ -722,6 +767,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = CE0283F71F1A7C26004764BF /* Products */;
+					ProjectRef = CE0283F61F1A7C26004764BF /* OCMock.xcodeproj */;
+				},
+				{
 					ProductGroup = CE3E73251F159FCC00439564 /* Products */;
 					ProjectRef = CE3E73241F159FCC00439564 /* SalesforceSDKCore.xcodeproj */;
 				},
@@ -735,6 +784,34 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		CE0283FE1F1A7C27004764BF /* OCMock.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OCMock.framework;
+			remoteRef = CE0283FD1F1A7C27004764BF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE0284001F1A7C27004764BF /* OCMockTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCMockTests.xctest;
+			remoteRef = CE0283FF1F1A7C27004764BF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE0284021F1A7C27004764BF /* libOCMock.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOCMock.a;
+			remoteRef = CE0284011F1A7C27004764BF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CE0284041F1A7C27004764BF /* OCMockLibTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCMockLibTests.xctest;
+			remoteRef = CE0284031F1A7C27004764BF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		CE3E732D1F159FCC00439564 /* SalesforceSDKCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -862,6 +939,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CE02840A1F1A7CE2004764BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCMockLib;
+			targetProxy = CE0284091F1A7CE2004764BF /* PBXContainerItemProxy */;
+		};
 		CE3E73011F159C1300439564 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CE3E72F41F159C1300439564 /* SFNetworkSDK */;
