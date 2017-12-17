@@ -23,11 +23,10 @@
  */
 
 #import <objc/runtime.h>
-
 #import "CSFNetwork+Internal.h"
 #import "CSFNetwork+Salesforce.h"
 #import "CSFAction+Internal.h"
-#import <SalesforceSDKCore/SFAuthenticationManager.h>
+#import <SalesforceSDKCore/SFUserAccountManager.h>
 #import "CSFInternalDefines.h"
 #import <SalesforceSDKCore/SalesforceSDKManager.h>
 
@@ -54,7 +53,7 @@ NSString *CSFNetworkInstanceKey(SFUserAccount *user) {
     return [NSString stringWithFormat:@"%@%@", CSFNetworkInstanceKeyUserPrefix(user), user.communityId];
 }
 
-@interface CSFNetwork() <SFAuthenticationManagerDelegate>
+@interface CSFNetwork() <SFUserAccountManagerDelegate>
 
 // This cache holds all the actions that have a limit per session
 @property (nonatomic, retain) NSCache *actionSessionLimitCache;
@@ -181,7 +180,7 @@ static NSMutableDictionary<NSString*, CSFNetwork*> *SharedInstances = nil;
     self = [self init];
     if (self) {
         self.account = account;
-        [[SFAuthenticationManager sharedManager] addDelegate:self];
+        [[SFUserAccountManager sharedInstance] addDelegate:self];
         self.userAgent = @"SFNetworkSDK";
     }
     return self;
@@ -191,7 +190,7 @@ static NSMutableDictionary<NSString*, CSFNetwork*> *SharedInstances = nil;
     [self.queue removeObserver:self forKeyPath:@"operationCount" context:kObservingKey];
     [self.queue cancelAllOperations];
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-    [[SFAuthenticationManager sharedManager] removeDelegate:self];
+    [[SFUserAccountManager sharedInstance] removeDelegate:self];
 }
 
 - (void)setSessionConfiguration:(NSURLSessionConfiguration *)sessionConfig isBackgroundSession:(BOOL)isBackgroundSession {
@@ -495,7 +494,7 @@ static NSMutableDictionary<NSString*, CSFNetwork*> *SharedInstances = nil;
 
 #pragma mark - SFAuthenticationManagerDelegate
 
-- (void)authManager:(SFAuthenticationManager *)manager willLogoutUser:(SFUserAccount *)user {
+- (void)authManager:(SFUserAccountManager *)manager willLogoutUser:(SFUserAccount *)user {
     [[self class] removeSharedInstances:user];
 }
 

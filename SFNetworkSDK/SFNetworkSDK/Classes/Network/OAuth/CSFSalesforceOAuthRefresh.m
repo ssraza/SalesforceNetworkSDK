@@ -28,7 +28,7 @@
 #import "CSFOAuthTokenRefreshOutput.h"
 #import "CSFInternalDefines.h"
 #import <SalesforceSDKCore/SFOAuthCoordinator.h>
-#import <SalesforceSDKCore/SFAuthenticationManager.h>
+#import <SalesforceSDKCore/SFUserAccountManager.h>
 #import <SalesforceSDKCore/SFSDKEventBuilderHelper.h>
 #import "SFLogger.h"
 
@@ -68,8 +68,8 @@
     
     self.coordinator = [[SFOAuthCoordinator alloc] initWithCredentials:creds];
     self.coordinator.delegate = self;
-    self.coordinator.additionalTokenRefreshParams = [SFAuthenticationManager sharedManager].additionalTokenRefreshParams;
-    self.coordinator.additionalOAuthParameterKeys = [SFAuthenticationManager sharedManager].additionalOAuthParameterKeys;
+    self.coordinator.additionalTokenRefreshParams = [SFUserAccountManager sharedInstance].additionalTokenRefreshParams;
+    self.coordinator.additionalOAuthParameterKeys = [SFUserAccountManager sharedInstance].additionalOAuthParameterKeys;
     
     dispatch_async(dispatch_get_main_queue(), ^{
         [self.coordinator authenticate];
@@ -85,7 +85,7 @@
             attributes[@"errorCode"] = [NSNumber numberWithInteger:error.code];
             attributes[@"errorDescription"] = error.localizedDescription;
             [SFSDKEventBuilderHelper createAndStoreEvent:@"userLogout" userAccount:self.network.account className:NSStringFromClass([self class]) attributes:attributes];
-            [[SFAuthenticationManager sharedManager] logoutUser:self.network.account];
+            [[SFUserAccountManager sharedInstance] logoutUser:self.network.account];
         });
     }
     
@@ -100,7 +100,7 @@
     [self finishWithOutput:output error:nil];
 
     dispatch_async(dispatch_get_main_queue(), ^{
-        [[NSNotificationCenter defaultCenter] postNotificationName:kSFAuthenticationManagerFinishedNotification
+        [[NSNotificationCenter defaultCenter] postNotificationName:kSFNotificationUserDidLogIn
                                                             object:nil
                                                           userInfo:nil];
     });
