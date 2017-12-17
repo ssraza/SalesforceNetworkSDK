@@ -186,7 +186,7 @@
     SFUserAccount *user = [TestDataAction testUserAccount];
     XCTAssertNotNil([CSFNetwork networkForUserAccount:user]);
     XCTAssertNotNil([CSFNetwork cachedNetworkForUserAccount:user]);
-    [[SFAuthenticationManager sharedManager] logoutUser:user];
+    [[SFUserAccountManager sharedInstance] logoutUser:user];
     XCTAssertNil([CSFNetwork cachedNetworkForUserAccount:user]);
     [[SFUserAccountManager sharedInstance] deleteAccountForUser:user error:nil];
 }

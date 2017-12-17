@@ -486,12 +486,12 @@
     XCTAssertEqualObjects(recorder.results.lastObject, expected);
     [recorder.results removeAllObjects];
     
-    [SFLogger log:self.class level:SFLogLevelError context:0 msg:@"This is a error message"];
+    [SFLogger log:self.class level:SFLogLevelError identifier:kSFLogIdentifierDefault msg:@"This is a error message"];
     XCTAssertEqual(recorder.results.count, 1U);
     XCTAssertEqualObjects(recorder.results.lastObject, expected);
     [recorder.results removeAllObjects];
     
-    [SFLogger log:self.class level:SFLogLevelError context:MobileSDKLogContext msg:@"This is a error message"];
+    [SFLogger log:self.class level:SFLogLevelError identifier:kSFLogIdentifierDefault msg:@"This is a error message"];
     XCTAssertEqual(recorder.results.count, 1U);
     XCTAssertEqualObjects(recorder.results.lastObject, expected);
     [recorder.results removeAllObjects];
@@ -541,7 +541,7 @@
                                             line:0
                                              tag:self.class
                                          message:@"This is a error message"];
-    [self log:SFLogLevelError context:0 msg:@"This is a error message"];
+    [self log:SFLogLevelError identifier:kSFLogIdentifierDefault msg:@"This is a error message"];
     XCTAssertEqual(recorder.results.count, 1U);
     XCTAssertEqualObjects(recorder.results.lastObject, expectedMsg);
     [recorder.results removeAllObjects];
@@ -566,7 +566,7 @@
     XCTAssertEqualObjects(recorder.results.lastObject, expectedFormat);
     [recorder.results removeAllObjects];
     
-    [self log:SFLogLevelError context:MobileSDKLogContext format:@"This is a error message"];
+    [self log:SFLogLevelError identifier:kSFLogIdentifierDefault format:@"This is a error message"];
     XCTAssertEqual(recorder.results.count, 1U);
     XCTAssertEqualObjects(recorder.results.lastObject, expectedFormat);
     [recorder.results removeAllObjects];
