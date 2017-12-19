@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8A5DE61235B1C71E14860D143F3F86D30DF6347B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E4BCE3AE6B24E41B9BCE312FF3B0B6CD0B8B8025" : 9223372036854775807,
+    "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D" : 9223372036854775807,
+    "8A5DE61235B1C71E14860D143F3F86D30DF6347B" : 9223372036854775807,
+    "7C80E369FFE652F462AD8B47C12C2751E63BBDFE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9903D2CA-5225-4368-B24E-5F1CC7635329",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E4BCE3AE6B24E41B9BCE312FF3B0B6CD0B8B8025" : "SFNetworkSDK\/SalesforceMobileSDK\/external\/ocmock\/",
+    "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D" : "SFNetworkSDK\/SalesforceMobileSDK\/external\/CocoaLumberjack\/",
+    "8A5DE61235B1C71E14860D143F3F86D30DF6347B" : "SFNetworkSDK\/",
+    "7C80E369FFE652F462AD8B47C12C2751E63BBDFE" : "SFNetworkSDK\/SalesforceMobileSDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SFNetworkSDK",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SFNetworkSDK.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/forcedotcom\/CocoaLumberjack.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "35B5C9A93714EC9BEB56BAE809C5551E5C66E52D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/forcedotcom\/SalesforceMobileSDK-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7C80E369FFE652F462AD8B47C12C2751E63BBDFE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.soma.salesforce.com\/bhariharan\/SFNetworkSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8A5DE61235B1C71E14860D143F3F86D30DF6347B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/erikdoe\/ocmock.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E4BCE3AE6B24E41B9BCE312FF3B0B6CD0B8B8025"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module SFNetworkSDK {
+  umbrella header "SFNetworkSDK.h"
+
+  export *
+  module * { export * }
+}

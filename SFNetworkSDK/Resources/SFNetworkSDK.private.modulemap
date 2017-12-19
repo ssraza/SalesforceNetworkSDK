@@ -1,0 +1,3 @@
+explicit framework module SFNetworkSDK.Private {
+    header "CSFPrivateDefines.h"
+}
