@@ -170,6 +170,11 @@ static NSMutableDictionary<NSString*, CSFNetwork*> *SharedInstances = nil;
         #endif
         [notificationCenter postNotificationName:CSFNetworkInitializedNotification object:self];
         
+        [notificationCenter addObserver:self
+                               selector:@selector(handleUserWillLogout:)
+                                   name:kSFNotificationUserWillLogout
+                                 object:nil];
+        
         // In Salesforce category
         [self setupSalesforceObserver];
     }
@@ -493,6 +498,13 @@ static NSMutableDictionary<NSString*, CSFNetwork*> *SharedInstances = nil;
 }
 
 #pragma mark - SFAuthenticationManagerDelegate
+
+- (void)handleUserWillLogout:(NSNotification *)notification {
+    SFUserAccount* user = notification.userInfo[@"account"];
+    NSLog(@"HEY HEY HEY handleUserWillLogout, %@ ^^^ %@", notification.userInfo, user);
+    
+    [[self class] removeSharedInstances:user];
+}
 
 - (void)authManager:(SFUserAccountManager *)manager willLogoutUser:(SFUserAccount *)user {
     [[self class] removeSharedInstances:user];
