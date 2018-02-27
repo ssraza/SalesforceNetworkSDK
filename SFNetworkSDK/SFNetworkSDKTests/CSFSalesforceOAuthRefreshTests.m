@@ -26,7 +26,6 @@
 #import "CSFSalesforceAction.h"
 #import <SalesforceSDKCore/SFUserAccountManager.h>
 #import <SalesforceSDKCore/SFOAuthCoordinator.h>
-#import <SalesforceSDKCore/SFAuthenticationManager.h>
 #import "CSFSalesforceOAuthRefresh.h"
 #import "CSFAuthRefresh+Internal.h"
 #import "CSFNetwork+Internal.h"
@@ -89,7 +88,7 @@
     [[SFUserAccountManager sharedInstance] saveAccountForUser:user error:&error];
      XCTAssertNil(error);
     __block BOOL userLogoutNotificationReceived = NO;
-    id handler = [[NSNotificationCenter defaultCenter] addObserverForName:kSFUserWillLogoutNotification
+    id handler = [[NSNotificationCenter defaultCenter] addObserverForName:kSFNotificationUserWillLogout
                                                                    object:nil
                                                                     queue:[NSOperationQueue currentQueue]
                                                                usingBlock:^(NSNotification *note) {

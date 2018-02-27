@@ -46,7 +46,7 @@ NSString * const CSFDidChangeUserDataNotification = @"CSFDidChangeUserDataNotifi
 
 }
 
-#pragma mark SFAuthenticationManagerDelegate
+#pragma mark SFUserAccountManager Notifacation
 - (void)userAccountManagerDidChangeUserData:(NSNotification*)notification {
     SFUserAccount *userAccount = (SFUserAccount*)notification.object;
     SFUserAccountDataChange change = (SFUserAccountDataChange)[notification.userInfo[SFUserAccountManagerUserChangeKey] integerValue];

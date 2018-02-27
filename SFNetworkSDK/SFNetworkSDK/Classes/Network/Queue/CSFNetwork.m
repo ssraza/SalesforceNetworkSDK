@@ -497,16 +497,11 @@ static NSMutableDictionary<NSString*, CSFNetwork*> *SharedInstances = nil;
     [action sessionTask:task willPerformHTTPRedirection:response newRequest:request completionHandler:completionHandler];
 }
 
-#pragma mark - SFAuthenticationManagerDelegate
+#pragma mark - SFUserAccountManager Notifacation
 
 - (void)handleUserWillLogout:(NSNotification *)notification {
     SFUserAccount* user = notification.userInfo[@"account"];
-    NSLog(@"HEY HEY HEY handleUserWillLogout, %@ ^^^ %@", notification.userInfo, user);
     
-    [[self class] removeSharedInstances:user];
-}
-
-- (void)authManager:(SFUserAccountManager *)manager willLogoutUser:(SFUserAccount *)user {
     [[self class] removeSharedInstances:user];
 }
 
